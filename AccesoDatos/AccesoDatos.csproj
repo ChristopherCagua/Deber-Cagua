@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\..\..\source\repos\GetPersonas.cs" />
     <Compile Include="AccederDatos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -77,7 +78,6 @@
     <Compile Include="frmgetpersonas.Designer.cs">
       <DependentUpon>frmgetpersonas.cs</DependentUpon>
     </Compile>
-    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="AccederDatos.resx">
       <DependentUpon>AccederDatos.cs</DependentUpon>
